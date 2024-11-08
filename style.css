@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #49A9C0;
+}
+/* .pt-sans-narrow-regular {
+    font-family: "PT Sans Narrow", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-narrow-bold {
+    font-family: "PT Sans Narrow", serif;
+    font-weight: 700;
+    font-style: normal;
+  } */
+  
+/* TODO: 最後可以的話，改成3*3，共9個 */
+#title {
+    font-size: 5rem;
+    margin: 30px 0 80px 0;
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #F8D210;
+}
+
+button {
+    outline: none;
+    border: 3px solid #fff5;
+    border-radius: 15px;
+    padding: 88px 10px 0 10px;
+    background: none;
+    background-image: url("./images/usagi-1.png");
+    /* background-image: url("./images/Patrick_Star.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "PT Sans Narrow", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #D4BBDD;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 600px;
+}
+
+.soundSet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 60vw;
+    min-width: 330px;
+    max-width: 600px;
+
+}
+
+.sound {
+    flex-basis: 85px;
+    height: 140px;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+#footer {
+    font-family: "PT Sans Narrow", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #D4BBDD;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
