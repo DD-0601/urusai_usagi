@@ -20,7 +20,3 @@
 # Ignore logs and debug related files
 .vscode/.cquery_cached_index/
 .vscode/.env/
-
-#此project檔案
-images/
-sounds/
